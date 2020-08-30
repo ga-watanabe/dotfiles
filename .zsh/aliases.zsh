@@ -1,7 +1,7 @@
 # Unix
 alias de='cd ~/Desktop'
 alias lsa="ls -laF"
-alias rbr="rm -rf"
+alias rmr="rm -rf"
 alias sr="exec zsh -l"
 
 # Docker
