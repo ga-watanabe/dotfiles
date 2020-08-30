@@ -1,4 +1,4 @@
-function cdb() {
+function co() {
   if [ -n "${1}" ]; then
     git checkout ${1}
   else
