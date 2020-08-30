@@ -1,4 +1,4 @@
-function mkb () {
+function mb () {
   base_branch=$(cb)
   if [ -n "${2}" ]; then
     git checkout -b ${1} ${2}
