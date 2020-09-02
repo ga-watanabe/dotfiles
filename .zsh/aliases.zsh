@@ -5,8 +5,11 @@ alias rmr="rm -rf"
 alias sr="exec zsh -l"
 
 # Docker
-alias dk="docker"
-alias dkc="docker-compose"
+alias dkp="docker-compose ps"
+alias dku="docker-compose up -d"
+alias dks="docker-compose stop"
+alias dkw="docker-compose exec web bash"
+alias dkl="docker-compose logs --tail=500 web"
 
 # Visual Studio Code
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
@@ -23,7 +26,6 @@ alias m="git merge"
 alias ss="git status -s"
 alias lg="git log --graph"
 alias br="git branch"
-alias rmb="git branch -d -D"
 alias ds="git diff --staged"
 alias rbc="git rebase --continue"
 alias rbs="git rebase --skip"
@@ -39,3 +41,11 @@ alias gh='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
 
 # Rails
 alias brails="bundle exec rails"
+alias -g RET='RAILS_ENV=test'
+alias rc='rails console'
+alias rcs='rails console --sandbox'
+alias rdm='rake db:migrate'
+alias rdms='rake db:migrate:status'
+alias rdr='rake db:rollback'
+alias rdsl='rake db:schema:load'
+

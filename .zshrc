@@ -1,5 +1,5 @@
-export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="cobalt2"
+# export ZSH="$HOME/.oh-my-zsh"
+# ZSH_THEME="cobalt2"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -59,9 +59,9 @@ ZSH_THEME="cobalt2"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ruby osx bundler brew rails emoji-clock)
+# plugins=(git ruby osx bundler brew rails emoji-clock)
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -93,7 +93,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/aliases.zsh
 
 # zplug
-source ~/.zsh/zplug.zsh
+# source ~/.zsh/zplug.zsh
 
 # custom functions
 for function in ~/.zsh/functions/*; do
@@ -102,3 +102,14 @@ done
 
 # rbenv
 eval "$(rbenv init -)"
+
+# prompt
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' formats '[%b]'
+zstyle ':vcs_info:*' actionformats '(%s)[%b|%a]'
+precmd () { vcs_info }
+setopt prompt_subst
+RPROMPT=$RPROMPT'${vcs_info_msg_0_}'
+PS1="%1~ $ "
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
