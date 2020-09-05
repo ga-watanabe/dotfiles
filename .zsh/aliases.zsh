@@ -1,12 +1,15 @@
 # Unix
 alias de='cd ~/Desktop'
 alias lsa="ls -laF"
-alias rmr="rm -rf"
+alias del="rm -rf"
 alias sr="exec zsh -l"
+alias ..="cd .."
+alias ../..="cd ../.."
+alias ../../..="cd ../../.."
 
 # Docker
 alias dkp="docker-compose ps"
-alias dku="docker-compose up -d"
+alias dku="rm ./tmp/pids/server.pid; docker-compose up -d"
 alias dks="docker-compose stop"
 alias dkw="docker-compose exec web bash"
 alias dkl="docker-compose logs --tail=500 web"
@@ -48,4 +51,3 @@ alias rdm='rake db:migrate'
 alias rdms='rake db:migrate:status'
 alias rdr='rake db:rollback'
 alias rdsl='rake db:schema:load'
-
