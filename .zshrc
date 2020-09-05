@@ -1,3 +1,48 @@
+export ZPLUG_HOME=/usr/local/opt/zplug
+source $ZPLUG_HOME/init.zsh
+
+# 使いたいzshのプラグインを以下に入れていく
+# zplug "zsh-users/zsh-autosuggestions"
+# zplug "zsh-users/zsh-syntax-highlighting"
+# zplug "zsh-users/zsh-completions"
+
+# if ! zplug check --verbose; then
+#   printf 'Install? [y/N]: '
+#   if read -q; then
+#     echo; zplug install
+#   fi
+# fi
+# zplug load --verbose
+
+# prezto用のプラグイン
+zplug "sorin-ionescu/prezto"
+zplug "marzocchi/zsh-notify"
+
+if ! zplug check --verbose; then
+  printf 'Install? [y/N]: '
+  if read -q; then
+    echo; zplug install
+  fi
+fi
+
+# zplug "modules/environment", from:prezto
+# zplug "modules/terminal", from:prezto
+# zplug "modules/editor", from:prezto
+# zplug "modules/history", from:prezto
+# zplug "modules/directory", from:prezto
+# zplug "modules/spectrum", from:prezto
+# zplug "modules/utility", from:prezto
+# zplug "modules/completion", from:prezto
+# zplug "modules/prompt", from:prezto
+# zplug "modules/homebrew", from:prezto
+# zplug "modules/ruby", from:prezto
+
+
+#zpreztoの初期化
+# if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+#   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+# fi
+
 # export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="cobalt2"
 
