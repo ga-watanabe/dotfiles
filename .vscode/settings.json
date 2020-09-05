@@ -1,0 +1,48 @@
+{
+  // "search.useIgnoreFiles": false,
+  "0": "タブは空白2つ",
+  "editor.tabSize": 2,
+  "1": "インデントを編集中ファイルのインデントに合わせる",
+  "editor.detectIndentation": false,
+  "2": "空白表示",
+  "editor.renderWhitespace": "all",
+  "3": "保存時に行末の余分な空白を削除",
+  "files.trimTrailingWhitespace": true,
+  "4": "インデント自動化",
+  "editor.autoIndent": "full",
+  "editor.formatOnPaste": false,
+  "6": "余計な最終行を削除",
+  "files.trimFinalNewlines": true,
+  "7": "ミニマップを非表示",
+  "editor.minimap.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "ruby.rubocop.executePath": "/Users/g_watanabe/.rbenv/shims/",
+  "ruby.rubocop.configFilePath": "/Users/g_watanabe/.rubocop.yml",
+  "macros": {
+    "saveAndFocusTerminal": [
+      "workbench.action.files.save",
+      "workbench.action.terminal.focus"
+    ]
+  },
+  "window.zoomLevel": 0,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "git.ignoreLegacyWarning": true,
+  "explorer.confirmDragAndDrop": false,
+  "highlight.regexes": {
+    "(　)": [{ "backgroundColor": "lightgray" }],
+    "([０-９Ａ-Ｚ＝])": [{ "color": "red", "backgroundColor": "yellow" }]
+  },
+  "editor.definitionLinkOpensInPeek": true,
+  "workbench.editor.showTabs": true,
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "ruby.intellisense": "rubyLocate",
+  "window.titleBarStyle": "native",
+  "window.newWindowDimensions": "maximized",
+  "workbench.iconTheme": "vscode-icons",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
