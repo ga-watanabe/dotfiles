@@ -1,5 +1,5 @@
 [
-  { "key": "ctrl+a", "command": "macros.saveAndFocusTerminal", "when": "editorTextFocus" },
+  { "key": "ctrl+a", "command": "macros.saveAndFocusTerminal", "when": "editorTextFocus" }, // saveAndFocusTerminalはsetting.jsonに定義してある
   { "key": "ctrl+a", "command": "workbench.action.focusFirstEditorGroup", "when": "terminalFocus" },
   { "key": "ctrl+]", "command": "workbench.action.nextEditor" },
   { "key": "ctrl+[", "command": "workbench.action.previousEditor" },
