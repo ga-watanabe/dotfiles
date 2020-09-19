@@ -1,17 +1,26 @@
-export ZPLUG_HOME=/usr/local/opt/zplug
-source $ZPLUG_HOME/init.zsh
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
 
-zplug "sorin-ionescu/prezto"
-zplug "marzocchi/zsh-notify" # Macで時間のかかるコマンドが終わったら自動で通知する
-if ! zplug check --verbose; then # 未インストールがあれば
-  printf 'Install? [y/N]: '
-  if read -q; then # zshのyes/no判定をするワンライナー
-    echo; zplug install
-  fi
-fi
+# Customize to your needs...
+
+# export ZPLUG_HOME=/usr/local/opt/zplug
+# source $ZPLUG_HOME/init.zsh
+
+# zplug "sorin-ionescu/prezto"
+# zplug "marzocchi/zsh-notify" # Macで時間のかかるコマンドが終わったら自動で通知する
+# if ! zplug check --verbose; then # 未インストールがあれば
+#   printf 'Install? [y/N]: '
+#   if read -q; then # zshのyes/no判定をするワンライナー
+#     echo; zplug install
+#   fi
+# fi
 
 # プラグインを読み込み、コマンドにパスを通す
-zplug load --verbose
+# zplug load --verbose
 
 # 最低限
 # zplug "zsh-users/zsh-autosuggestions"
