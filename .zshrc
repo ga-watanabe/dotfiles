@@ -70,3 +70,5 @@ PS1="%1~ $ "
 
 # shell integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+function git(){hub "$@"}

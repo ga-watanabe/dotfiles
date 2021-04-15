@@ -37,10 +37,10 @@
   },
 
   // When enabled, insert a final new line at the end of the file when saving it.
-  "files.insertFinalNewline": true,
+  "files.insertFinalNewline": false,
 
   // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
-  "files.trimFinalNewlines": true,
+  "files.trimFinalNewlines": false,
 
   // When enabled, will trim trailing whitespace when saving a file.
   "files.trimTrailingWhitespace": true,
@@ -72,5 +72,14 @@
   "ruby.rubocop.configFilePath": "/Users/g_watanabe/.rubocop.yml",
 
   // execution path of rubocop.
-  "ruby.rubocop.executePath": "/Users/g_watanabe/.rbenv/shims/"
+  "ruby.rubocop.executePath": "/Users/g_watanabe/.rbenv/shims/",
+  "gitlens.views.lineHistory.enabled": true,
+  "gitlens.views.searchAndCompare.files.layout": "list",
+  "gitlens.views.searchAndCompare.avatars": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "default",
+      "filenamePattern": "git-rebase-todo"
+    }
+  ]
 }

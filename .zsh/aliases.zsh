@@ -58,3 +58,7 @@ alias rdm='rake db:migrate'
 alias rdms='rake db:migrate:status'
 alias rdr='rake db:rollback'
 alias rdsl='rake db:schema:load'
+
+# AWS
+alias "awsi"="aws sts get-caller-identity"
+alias "awss"="aws ssm start-session --target"
