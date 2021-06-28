@@ -454,13 +454,17 @@
 	<key>ILMediaBrowserMediaType</key>
 	<integer>1</integer>
 	<key>LeftTabBarWidth</key>
-	<real>228</real>
+	<real>286</real>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/ghq/github.com/ga-watanabe/dotfiles/iTerm2</string>
+	<string>~/Documents</string>
+	<key>NSNavLastUserSetHideExtensionButtonState</key>
+	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{799, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{712, 448}</string>
 	<key>NSNavPanelMediaBrowserTypeForOpenModeKey</key>
 	<integer>1</integer>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -505,9 +509,9 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>320 321 799 448 0 0 1440 877 </string>
+	<string>546 522 347 181 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 363 620 392 0 0 1440 877 </string>
+	<string>351 1226 700 622 -259 900 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1440 877 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1217,7 +1221,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>630380124.52124798</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>49</integer>
+	<integer>57</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>620902998.96677101</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1954,6 +1958,8 @@
 			</dict>
 		</array>
 	</dict>
+	<key>NoSyncSaveDocumentAsPathSet_saveDocumentAs:</key>
+	<true/>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>620614298.24280596</real>
 	<key>NoSyncTipsToNotShow</key>
@@ -2086,7 +2092,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2021-04-08T02:01:32Z</date>
+	<date>2021-06-23T01:56:05Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SeparateWindowTitlePerTab</key>
